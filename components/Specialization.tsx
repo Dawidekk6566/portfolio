@@ -13,7 +13,12 @@ const Specialization = () => {
       <div className="flex justify-center w-full pb-16">
         <div className="h-52 max-md:h-full max-md:mx-8 w-[30rem] bg-[#292C36] rounded-2xl p-8">
           <div className="flex max-md:flex-col md:items-center gap-4">
-            <Image src="/web-development.png" width={64} height={64}></Image>
+            <Image
+              alt="Laptop Icon"
+              src="/web-development.png"
+              width={64}
+              height={64}
+            ></Image>
             <h3 className="text-2xl text-white font-semibold md:w-1/2">
               Front-end Development
             </h3>

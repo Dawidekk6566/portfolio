@@ -13,7 +13,12 @@ const Projects = () => {
       </h2>
       <div className="flex justify-center gap-32 max-xl:flex-col max-xl:items-center pb-16 w-full max-sm:px-32 max-sm:m-auto">
         <div className="bg-[#292C36] h-full w-max">
-          <Image src="/sushi-preview.png" width={380} height={300}></Image>
+          <Image
+            alt="Sushi Website Preview"
+            src="/sushi-preview.png"
+            width={380}
+            height={300}
+          ></Image>
           <p className="text-white font-semibold text-lg p-8">
             Sushi Restaurant Website
           </p>
@@ -26,6 +31,7 @@ const Projects = () => {
         <div>
           <div className="bg-[#292C36] h-full w-max">
             <Image
+              alt="Smartwatch Website Preview"
               src="/smartwatch-preview.png"
               width={380}
               height={300}
@@ -42,7 +48,12 @@ const Projects = () => {
         </div>
         <div>
           <div className="bg-[#292C36] h-full w-max">
-            <Image src="/buycar1-preview.png" width={380} height={300}></Image>
+            <Image
+              alt="BuyCar company website preview"
+              src="/buycar1-preview.png"
+              width={380}
+              height={300}
+            ></Image>
             <p className="text-white font-semibold text-lg p-8">
               BuyCar Website
             </p>
